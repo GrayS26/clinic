@@ -1,0 +1,71 @@
+{
+	"doctors":[
+		{
+			"id":1,
+			"isActive": true,
+			"name": "Mark Hill",
+			"position":"<p>Lorem ipsum dolor sit amet, conse ctetur.</p>",
+			"media":{
+				"avatar": "home-page/doctors/avatar-1.jpg",
+				"main": "home-page/doctors/user-1.png",
+				"gallery":{
+					"small":["gallery/01.png","gallery/02.png","gallery/03.png","gallery/04.png"],
+					"big": ["gallery/01.png","gallery/02.png","gallery/03.png","gallery/04.png"]
+				}
+			},
+			"skils":{
+				"Liposuction": 80,
+				"Breast Augmentation": 90
+			},
+			"stat":{
+				"staf":23,
+				"doctors":56,
+				"visits":86
+			}
+		}, 
+		{
+			"id":2,
+			"isActive": false,
+			"name": "Jane Cullen",
+			"position":"<p>Lorem ipsum dolor sit amet, conse ctetur.</p>",
+			"media":{
+				"avatar": "home-page/doctors/avatar-2.jpg",
+				"main": "home-page/doctors/user-2.png",
+				"gallery":{
+					"small":["gallery/01.png","gallery/02.png"],
+					"big": ["gallery/01.png","gallery/02.png"]
+				}
+			},
+			"skils":{
+				"Liposuction": 50
+			},
+			"stat":{
+				"staf":20,
+				"visits":46
+			}
+		},
+		{
+			"id":3,
+			"isActive": false,
+			"name": "Annah Gaiver",
+			"position":"<p>Lorem ipsum dolor sit amet, conse ctetur.</p>",
+			"media":{
+				"avatar": "home-page/doctors/avatar-3.jpg",
+				"main": "home-page/doctors/user-3.png",
+				"gallery":{
+					"small":["gallery/01.png"],
+					"big": ["gallery/01.png"]
+				}
+			},
+			"skils":{
+				"Liposuction": 10,
+				"Breast Augmentation": 50
+			},
+			"stat":{
+				"staf":20,
+				"doctors":56,
+				"visits":46
+			}
+		}
+	]
+}
